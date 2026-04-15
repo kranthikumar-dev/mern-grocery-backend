@@ -1,0 +1,101 @@
+# 🛒 Grocery Backend API
+
+Backend system for a grocery web application built using Node.js and Express. This project includes authentication, product management, cart functionality, email verification, and search features.
+
+---
+
+## 🚀 Features
+
+- JWT Authentication & Authorization
+- Email Verification (Nodemailer)
+- Product Management (CRUD with Image Upload)
+- Cart Management
+- Search & Filtering
+- Middleware for Route Protection
+- Modular Backend Architecture
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB (Mongoose)  
+- **Authentication:** JSON Web Token (JWT), bcrypt  
+- **File Upload:** Multer  
+- **Email Service:** Nodemailer  
+- **Configuration:** dotenv  
+- **Other:** CORS  
+
+---
+
+## 📁 Project Structure
+
+```
+backend/
+  controllers/
+  models/
+  routes/
+  middlewares/
+  email/
+  server.js
+  package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone repository:
+
+```
+git clone https://github.com/your-username/mern-grocery-backend.git
+```
+
+2. Go to backend folder:
+
+```
+cd MERN_Grocery_App/backend
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Create `.env` file:
+
+```
+PORT=5000
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret
+EMAIL_USER=your_email
+EMAIL_PASS=your_password
+```
+
+5. Run server:
+
+```
+npm start
+```
+
+---
+
+## 🔗 API Endpoints
+
+- `/api/auth` → Authentication  
+- `/api/products` → Product APIs  
+- `/api/cart` → Cart APIs  
+- `/api/email` → Email verification  
+
+---
+
+## 📌 Note
+
+This project demonstrates backend development skills including authentication, API design, and database management.
+
+---
+
+## 👨‍💻 Author
+
+Kranthi Kumar
